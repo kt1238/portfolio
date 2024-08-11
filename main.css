@@ -1,0 +1,8 @@
+body {
+    counter-reset: h4-counter;
+}
+
+h4::before {
+    counter-increment: h4-counter;
+    content: counter(h4-counter)". ";
+}
